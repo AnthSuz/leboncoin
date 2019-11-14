@@ -1,22 +1,139 @@
-.App {
-  text-align: center;
+.wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
+/* ---------- HEADER ---------- */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  box-shadow: 1px 1px 5px #888888;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left--header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+}
+
+.logo {
+  height: 48px;
+  width: 189px;
+  cursor: pointer;
+}
+
+.publish--button {
+  height: 39px;
+  width: 204px;
+  background-color: #f56b2a;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.publish--button:hover {
+  background-color: #c0562b;
+  transition-timing-function: linear;
+}
+
+.iconPlus {
+  fill: white;
+}
+
+.search--button {
+  height: 46px;
+  width: 120px;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 14px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #f56b2a;
+  cursor: pointer;
+}
+
+.person--button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 49px;
+  width: 100px;
+  border: none;
+  background-color: white;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #09d3ac;
+/* ---------- SEARCH ---------- */
+
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fafafa;
+}
+.search input {
+  border: none;
+  font-size: 16px;
+  background-color: #f4f6f7;
+  outline: none;
+}
+
+.search--search--button {
+  height: 44px;
+  width: 220px;
+  background-color: #4183d7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.search--search {
+  height: 44px;
+  width: 320px;
+  background-color: #f4f6f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.wen {
+  margin-right: 10px;
+}
+
+.search--inside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 810px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 35px 0;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: red;
 }
